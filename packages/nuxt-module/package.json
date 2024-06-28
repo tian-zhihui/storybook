@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs/storybook",
+  "name": "@tian-zhihui/nuxt-storybook",
   "version": "8.1.1",
   "description": "Storybook module for Nuxt",
   "license": "MIT",
