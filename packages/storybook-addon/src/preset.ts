@@ -97,7 +97,7 @@ async function loadNuxtViteConfig(root: string | undefined) {
     extendComposables(nuxt)
     // Override nuxt-link component to use storybook router
     extendComponents(nuxt)
-    // nuxt.options.build.transpile.push('@storybook-vue/nuxt')
+    // nuxt.options.build.transpile.push('@tian-zhihui/storybook-vue-nuxt')
     // Add iframe page
     extendPages((pages) => {
       pages.push({

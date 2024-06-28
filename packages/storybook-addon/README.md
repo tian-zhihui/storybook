@@ -58,7 +58,7 @@ npx storybook-nuxt init
 
 #### Automatic migration
 
-When running the `upgrade` command above, you should get a prompt asking you to migrate to `@storybook-vue/nuxt`, which should handle everything for you. In case auto-migration does not work for your project, refer to the manual migration below.
+When running the `upgrade` command above, you should get a prompt asking you to migrate to `@tian-zhihui/storybook-vue-nuxt`, which should handle everything for you. In case auto-migration does not work for your project, refer to the manual migration below.
 
 Update your `main.js` to change the framework property:
 
@@ -67,7 +67,7 @@ Update your `main.js` to change the framework property:
 export default {
   // ...
   framework: {
-    name: '@storybook-vue/nuxt', // Add this
+    name: '@tian-zhihui/storybook-vue-nuxt', // Add this
     options: {},
   },
 }

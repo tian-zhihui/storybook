@@ -10,7 +10,7 @@ const config = {
     '@chromatic-com/storybook',
   ],
   framework: {
-    name: '@storybook-vue/nuxt',
+    name: '@tian-zhihui/storybook-vue-nuxt',
     options: {},
   },
   docs: {

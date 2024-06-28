@@ -16,7 +16,7 @@
     "@nuxt/ui-templates": "^1.3.1",
     "@nuxtjs/color-mode": "^3.3.3",
     "@pinia/nuxt": "^0.5.1",
-    "@storybook-vue/nuxt": "workspace:*",
+    "@tian-zhihui/storybook-vue-nuxt": "workspace:*",
     "@storybook/addon-essentials": "^8.0.3",
     "@storybook/addon-interactions": "^8.0.3",
     "@storybook/addon-links": "^8.0.3",

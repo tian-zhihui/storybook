@@ -1,4 +1,4 @@
-import type { StorybookConfig } from '@storybook-vue/nuxt'
+import type { StorybookConfig } from '@tian-zhihui/storybook-vue-nuxt'
 
 const config: StorybookConfig = {
   stories: [
@@ -11,7 +11,7 @@ const config: StorybookConfig = {
     '@storybook/addon-interactions',
   ],
   framework: {
-    name: '@storybook-vue/nuxt',
+    name: '@tian-zhihui/storybook-vue-nuxt',
     options: {
       docgen: 'vue-component-meta',
     },

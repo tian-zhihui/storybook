@@ -13,7 +13,7 @@ import type { StorybookConfigVite } from '@storybook/builder-vite'
 declare let STORYBOOK_VUE_GLOBAL_PLUGINS: string[]
 declare let STORYBOOK_VUE_GLOBAL_MIXINS: string[]
 
-type FrameworkName = '@storybook-vue/nuxt'
+type FrameworkName = '@tian-zhihui/storybook-vue-nuxt'
 type BuilderName = '@storybook/builder-vite'
 
 type StorybookConfigFramework = {

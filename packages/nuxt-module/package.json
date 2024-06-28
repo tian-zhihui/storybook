@@ -42,7 +42,7 @@
   "dependencies": {
     "@nuxt/devtools-kit": "^1.0.8",
     "@nuxt/kit": "^3.12.0",
-    "@storybook-vue/nuxt": "workspace:*",
+    "@tian-zhihui/storybook-vue-nuxt": "workspace:*",
     "chalk": "^5.0.0",
     "consola": "^3.2.3",
     "defu": "^6.1.4",

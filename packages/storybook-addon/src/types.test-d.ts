@@ -6,12 +6,12 @@ describe('StorybookConfig', () => {
     expectTypeOf<StorybookConfig>()
       .toHaveProperty('framework')
       .extract<string>()
-      .toEqualTypeOf<'@storybook-vue/nuxt'>()
+      .toEqualTypeOf<'@tian-zhihui/storybook-vue-nuxt'>()
     expectTypeOf<StorybookConfig>()
       .toHaveProperty('framework')
       .extract<{ name: string }>()
       .toHaveProperty('name')
-      .toEqualTypeOf<'@storybook-vue/nuxt'>()
+      .toEqualTypeOf<'@tian-zhihui/storybook-vue-nuxt'>()
   })
   test('should restrict builder name', () => {
     expectTypeOf<StorybookConfig>()
@@ -33,7 +33,7 @@ describe('StorybookConfig', () => {
     const _config: StorybookConfig = {
       stories: [],
       framework: {
-        name: '@storybook-vue/nuxt',
+        name: '@tian-zhihui/storybook-vue-nuxt',
         options: {
           docgen: 'vue-component-meta',
         },
@@ -43,7 +43,7 @@ describe('StorybookConfig', () => {
   test('should allow setting staticDirs', () => {
     const _config: StorybookConfig = {
       stories: [],
-      framework: '@storybook-vue/nuxt',
+      framework: '@tian-zhihui/storybook-vue-nuxt',
       staticDirs: ['public'],
     }
   })

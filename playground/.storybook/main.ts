@@ -1,4 +1,4 @@
-import type { StorybookConfig } from '@storybook-vue/nuxt'
+import type { StorybookConfig } from '@tian-zhihui/storybook-vue-nuxt'
 import Inspect from 'vite-plugin-inspect'
 
 const config: StorybookConfig = {
@@ -12,7 +12,7 @@ const config: StorybookConfig = {
     '@storybook/addon-interactions',
   ],
   framework: {
-    name: '@storybook-vue/nuxt',
+    name: '@tian-zhihui/storybook-vue-nuxt',
     options: {},
   },
   docs: {
